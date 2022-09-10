@@ -1,94 +1,92 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
+  display: flex;
 }
 
 h1 {
-    font-family: 'Hepta Slab', serif;
-    font-size: 90px;
-    text-align-last: center;
+  font-family: "Hepta Slab", serif;
+  font-size: 90px;
+  text-align-last: center;
 }
 
 img {
-    width: 100%;
-    border: 1px rgb(0, 0, 0) solid;
+  width: 100%;
+  border: 1px rgb(0, 0, 0) solid;
 }
 
 aside {
-    width: 15%;
-    font-family: 'Prata', serif;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    padding: 4px;
+  width: 15%;
+  font-family: "Prata", serif;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  padding: 4px;
 }
 
-
 main {
-    display: flex;
-    width: 85%;
-    justify-content: space-between;
-    margin-left: 5px;
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+  margin-left: 5px;
 }
 
 section {
-    width: 50%;
+  width: 50%;
 }
 
-
 .text {
-    font-family: 'Prata', serif;
-    margin: 5%;
-    margin-bottom: 0;
+  font-family: "Prata", serif;
+  margin: 5%;
+  margin-bottom: 0;
 }
 
 nav ul {
-    display: flex;
-    padding: 10px;
-    background-color: rgb(0, 0, 0);
-    justify-content: space-between;
+  display: flex;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  justify-content: space-between;
 }
 
 li {
-    list-style: none;
-    color: rgb(255, 255, 255);
-    border: 2px rgb(0, 0, 0) solid;
+  list-style: none;
+  color: rgb(255, 255, 255);
+  border: 2px rgb(0, 0, 0) solid;
 }
 
 aside ul {
-    padding: 0;
-    list-style: none;
+  padding: 0;
+  list-style: none;
 }
 
 aside li {
-    border: 3px rgb(0, 0, 0) solid;
-    padding: 3px;
+  border: 3px rgb(0, 0, 0) solid;
+  padding: 3px;
 }
 
 a {
-    border: 2px rgb(255, 255, 255) solid;
-    color: rgb(255, 255, 255);
-    padding: 1px;
-    font-weight: lighter;
-    text-decoration: none;
+  border: 2px rgb(255, 255, 255) solid;
+  color: rgb(255, 255, 255);
+  padding: 1px;
+  font-weight: lighter;
+  text-decoration: none;
 }
 
 a:visited {
-    color: rgb(179, 168, 168);
+  color: rgb(179, 168, 168);
 }
 
 a:hover {
-    color: rgb(218, 159, 218);
-    text-decoration: none;
+  color: rgb(218, 159, 218);
+  text-decoration: none;
 }
 
 a:active {
-    color: rgb(218, 159, 218);
-    text-decoration: none;
+  color: rgb(218, 159, 218);
+  text-decoration: none;
 }
 
 p a {
-    color: rgb(218, 159, 218);
+  color: rgb(218, 159, 218);
 }
